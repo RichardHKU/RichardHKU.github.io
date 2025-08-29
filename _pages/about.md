@@ -20,7 +20,7 @@ Research Interests
 
 Recent News
 ======
-- 2025.08 - One paper was accepted by ASPDAC 2026.
+- 2025.09 - One paper was accepted by ASPDAC 2026.
 - 2025.07 - One paper was accepted by IEEE TCAD.
 - 2025.07 - One paper was accepted by ACM MM 2025.
 - 2025.06 - One paper was accepted by ICCV 2025.
