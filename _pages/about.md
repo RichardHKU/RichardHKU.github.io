@@ -20,7 +20,7 @@ Research Interests
 
 Recent News
 ======
-- 2025.09 - One paper was accepted by ASPDAC 2026.
+- 2025.11 - One paper was accepted by DATE 2026.
 - 2025.07 - One paper was accepted by IEEE TCAD.
 - 2025.07 - One paper was accepted by ACM MM 2025.
 - 2025.06 - One paper was accepted by ICCV 2025.
@@ -33,8 +33,6 @@ Selected Publications
 ====== 
   - **W. Zhou\***, B. Li\*, T. Wu, C. Ding, Z. Liu and N. Wong. QuadINR: Quadratic Implicit Neural Representations for Efficient Memristor-based CIM System, *IEEE Transactions on Circuits and Systems II: Express Briefs*.
   - **W. Zhou**, Z. Liu, Y. Ren, and N. Wong, Binary Weight Multi-Bit Activation Quantization for Compute-in-Memory CNN Accelerators, *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*. 
-  - **W. Zhou\***, J. Ren\*, T. Wu, Y. Cheng, Z. Liu and N. Wong. Distribution-Aware Hadamard Quantization for Hardware-Efficient Implicit Neural Representations, *2025 IEEE International Conference on Multimedia and Expo (ICME), Nantes, France, 2025*.
-  - **W. Zhou**, T. Wu, C. Ding, Y. Ren, Z. Liu and N. Wong. Towards RRAM-based Transformer-based Vision Models with Noise-aware Knowledge Distillation, *2025 Design, Automation & Test in Europe Conference & Exhibition (DATE), Lyon, France, 2025*.
 
 More about me
 ------
