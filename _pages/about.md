@@ -30,6 +30,8 @@ Recent News
 Selected Publications 
 ====== 
   - X. Feng\*, **W. Zhou\***, T. Wu, Z. Liu, M. Li and N. Wong. EdgeSC: Universal Stochastic Computing Architecture for Efficient Edge Detection, *DAC 2026: The Chips to Systems Conference*.
+  - X. Feng\*, **W. Zhou\***, T. Wu, M. Li, Z. Liu, and N. Wong. Activation-free Implicit Neural Representation via Finite-State-Machine Based Stochastic Computing, *31st Asia and South Pacific Design Automation Conference (ASP-DAC 2026)*.
+  - X. Feng\*, **W. Zhou\***, T. Wu, Z. Liu, M. Li and N. Wong. From SMURF to HI-SMURF: Scalable Multivariate Nonlinear Function Approximation via Compact Stochastic Architectures, *IEEE Transactions on Computer*.
   - T. Wu\*, C. Ding\*, **W. Zhou\***, Y. Cheng, X. Feng, S. Wang, W. Xu, C. Shi, Z. Liu, and N. Wong, HaLoRA: Hardware-aware Low-Rank Adaptation for Large Language Models Based on Hybrid Compute-in-Memory Architecture, *ACM Transactions on Design Automation of Electronic Systems*.
   - **W. Zhou\***, B. Li\*, T. Wu, C. Ding, Z. Liu and N. Wong. QuadINR: Quadratic Implicit Neural Representations for Efficient Memristor-based CIM System, *IEEE Transactions on Circuits and Systems II: Express Briefs*.
   - **W. Zhou**, Z. Liu, Y. Ren, and N. Wong, Binary Weight Multi-Bit Activation Quantization for Compute-in-Memory CNN Accelerators, *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*. 
