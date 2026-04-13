@@ -21,15 +21,16 @@ Research Interests
 Recent News
 ======
 - 2026.04 - One paper was accepted by IEEE TC.
+- 2026.04 - One paper was accepted by ACL 2026.
 - 2026.02 - One paper was accepted by DAC 2026.
 - 2026.02 - One paper was accepted by ACM TODAES.
-- 2025.11 - Two papers were accepted by DATE 2026.
 - 2025.07 - One paper was accepted by IEEE TCAD.
 - 2025.06 - One paper was accepted by IEEE TCAS-II.
-- 2025.03 - One paper was accepted by ICME 2025.
 
 Selected Publications 
 ====== 
+  - X. Feng\*, **W. Zhou\***, T. Wu, Z. Liu, M. Li and N. Wong. EdgeSC: Universal Stochastic Computing Architecture for Efficient Edge Detection, *DAC 2026: The Chips to Systems Conference*.
+  - T. Wu\*, C. Ding\*, **W. Zhou\***, Y. Cheng, X. Feng, S. Wang, W. Xu, C. Shi, Z. Liu, and N. Wong, HaLoRA: Hardware-aware Low-Rank Adaptation for Large Language Models Based on Hybrid Compute-in-Memory Architecture, *ACM Transactions on Design Automation of Electronic Systems*.
   - **W. Zhou\***, B. Li\*, T. Wu, C. Ding, Z. Liu and N. Wong. QuadINR: Quadratic Implicit Neural Representations for Efficient Memristor-based CIM System, *IEEE Transactions on Circuits and Systems II: Express Briefs*.
   - **W. Zhou**, Z. Liu, Y. Ren, and N. Wong, Binary Weight Multi-Bit Activation Quantization for Compute-in-Memory CNN Accelerators, *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*. 
 
@@ -41,6 +42,6 @@ More about me
 
 - I love traveling the world to experience beautiful natural landscapes and diverse human cultures, which enrich my understanding of humanity and inspire new ways of thinking.
 
-(Last updated on Aug., 2025)
+(Last updated on Aug., 2026)
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=-nscv4pQeoMEESU7AgJ6vCgAGxzsHrMmnsZm4xJFXUs&cl=ffffff&w=a"></script>
