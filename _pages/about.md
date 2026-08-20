@@ -20,7 +20,7 @@ Research Interests
 
 Recent News
 ======
-- 2026.07 - Three papers were accepted by ICCAD 2026.
+- 2026.08 - Three papers were accepted by ICCD 2026.
 - 2026.04 - One paper was accepted by IEEE TC.
 - 2026.02 - One paper was accepted by DAC 2026.
 - 2026.02 - One paper was accepted by ACM TODAES.
