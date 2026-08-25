@@ -6,16 +6,24 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Wenyong Zhou (周文涌), a PhD graduate from The University of Hong Kong (HKU), where I had the privilege of being guided by [Prof. Ngai Wong](https://www.eee.hku.hk/~nwong/) and [Prof. Can Li](https://www.eee.hku.hk/people/canl/) in the [Next Gen AI Lab](https://hku-ngai.github.io/people/) in 2025. My academic journey began with a Bachelor's degree from the School of Microelectronics at Tianjin University (TJU) in 2019, where I was fortunate to be mentored by [Prof. Yugong Wu](https://baike.baidu.com/item/%E5%90%B4%E8%A3%95%E5%8A%9F/8631943), followed by a Master's degree in Electrical and Computer Engineering at Northwestern University (NU) in 2021, where I was deeply influenced by the visionary mentorship of [Prof. Seda Ogrenci](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/ogrenci-seda.html). My research focuses on **Implicit Neural Representations (INRs)** as an efficient data paradigm and emerging **Compute-in-Memory (CIM)** architectures, with a recent passion for **Large Language Models (LLMs)**. I have enjoyed enriching internship experiences at Bytedance and JD.com in 2021 and 2023, respectively, and am currently working at [Zhicun (Witmem) Technology](http://www.witintech.com/), focusing on low-bit training of LLMs for compatibility with analog CIM hardware.
+I am **Wenyong Zhou (周文涌)**, a PhD graduate of The University of Hong Kong (HKU), where I completed my doctoral studies in 2025 under the supervision of [Prof. Ngai Wong](https://www.eee.hku.hk/~nwong/) and [Prof. Can Li](https://www.eee.hku.hk/people/canl/) in the [Next Gen AI Lab](https://hku-ngai.github.io/people/). Before HKU, I received my Bachelor's degree from the School of Microelectronics at Tianjin University (TJU) in 2019, where I was mentored by [Prof. Yugong Wu](https://baike.baidu.com/item/%E5%90%B4%E8%A3%95%E5%8A%9F/8631943), and my Master's degree in Electrical and Computer Engineering from Northwestern University in 2021, where I was deeply influenced by [Prof. Seda Ogrenci](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/ogrenci-seda.html). I also interned at Bytedance and JD.com in 2021 and 2023, respectively, and am currently working at [Zhicun (Witmem) Technology](https://www.witmem.com/).
+
+My research centers on **efficient AI through algorithm--hardware co-design**. As modern AI models continue to grow, their practical deployment is increasingly constrained not only by computational complexity, but also by data movement, memory access, and energy consumption. I am interested in addressing this gap from both sides of the computing stack: developing efficient algorithms—including low-bit learning and training methods for Large Language Models (LLMs)—while also designing specialized hardware architectures, particularly ASICs and **Compute-in-Memory (CIM)** chips. My goal is to make capable AI models more energy-efficient, hardware-aware, and practical for real-world deployment.
+
+Beyond research, I enjoy staying active through basketball, table tennis, and badminton. I am also an enthusiastic and wide-ranging reader, and enjoy exploring ideas across technology, history, society, and beyond.
 
 
 Research Interests
 ======
-- Data is the fuel of the AI era, and **INRs** offer an innovative approach for encoding data such as images, signals, and 3D scenes in a continuous and compact form using neural networks. This reduces the need for extensive storage while maintaining high-fidelity representations.
 
-- Computing power drives modern AI, but classical digital computers face challenges due to the separation of compute and storage units. **CIM** integrates memory and computation into a single unit, significantly reducing data movement and making it especially effective for accelerating AI workloads.
+- **Efficient Learning Algorithms**  
+  Low-precision learning, quantization, and training techniques that reduce the computational and memory cost of modern AI models, particularly LLMs.
 
-- **LLMs** have become a cornerstone of modern AI, driving advancements in applications ranging from natural language understanding to content generation. Minimizing their size and computational requirements without compromising performance democratizes access to advanced AI capabilities and broadens their range of applications.
+- **AI Accelerator ASICs & Compute-in-Memory**  
+  Energy-efficient hardware architectures for AI workloads, with a focus on ASIC design, analog CIM, and reducing data-movement overhead.
+
+- **Algorithm--Hardware Co-design**  
+  Jointly optimizing models, training methods, and hardware platforms to enable practical and scalable deployment of efficient AI.
 
 
 Recent News
@@ -36,14 +44,10 @@ Selected Publications
   - **W. Zhou\***, B. Li\*, T. Wu, C. Ding, Z. Liu and N. Wong. QuadINR: Quadratic Implicit Neural Representations for Efficient Memristor-based CIM System, *IEEE Transactions on Circuits and Systems II: Express Briefs*.
   - **W. Zhou**, Z. Liu, Y. Ren, and N. Wong, Binary Weight Multi-Bit Activation Quantization for Compute-in-Memory CNN Accelerators, *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*. 
 
-More about me
-------
-- I am passionate about competitive sports and enjoy practicing table tennis, badminton, and basketball. These activities have taught me valuable lessons about handling failure and shaping my personality.
+Academic Service
+======
 
-- I enjoy reading, particularly exploring history and politics through a financial lens to uncover how fundamental financial principles remain unchanged despite human intentions.
-
-- I love traveling the world to experience beautiful natural landscapes and diverse human cultures, which enrich my understanding of humanity and inspire new ways of thinking.
-
+I serve as a Technical Program Committee (TPC) member for leading conferences in electronic design automation, including **DAC**, **DATE**, **ICCAD**, and **ASP-DAC**. I also serve as a reviewer for **IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (IEEE TCAD)** and **IEEE Transactions on Computers (IEEE TC)**.
 (Last updated on Aug., 2026)
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=-nscv4pQeoMEESU7AgJ6vCgAGxzsHrMmnsZm4xJFXUs&cl=ffffff&w=a"></script>
