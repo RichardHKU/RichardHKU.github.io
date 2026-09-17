@@ -26,44 +26,6 @@ My research explores efficient and resilient computing for foundation models thr
 - **Robust AI on Imperfect Hardware**  
   Cross-layer techniques that enable reliable model behavior under the nonidealities of emerging hardware, including limited precision, analog noise, device variation, and system-level dynamics.
 
-
-Selected Publications
-======
-
-### 1. Memory-Centric Computing Substrates
-
-- **R2S-CIM: Random-Reference Stochastic Interface for ADC-Less Analog Compute-in-Memory** *(arXiv)*
-- **NOVA-CIM: Noise- and Correlation-Tolerant Stochastic Interfaces for Analog Compute-in-Memory** *(ASP-DAC 2027)*
-- **Scale-CIM: A Stochastic-Computing Interface for Configurable Precision in Analog CIM Systems** *(arXiv)*
-- **TrainCIM: Design Space Exploration of Heterogeneous Multi-Core Compute-in-Memory Architectures for AI Training** *(arXiv)*
-- **PIMScope: Package-Aware Analytical Modeling and Design-Space Exploration of Heterogeneous In-Memory Computing Systems for LLM Training** *(arXiv)*
-
-### 2. Fidelity-Aware Hardware–Model Co-Design
-
-- **Binary Weight Multi-Bit Activation Quantization for Compute-in-Memory CNN Accelerators** *(IEEE TCAD)*
-- **NANQ: Noise-Aware Mixed-Precision Non-Uniform Quantization for Neural Networks on Analog Compute-in-Memory** *(ASP-DAC 2027)*
-- **Exploring Layer-Wise Information Effectiveness for Post-Training Quantization in Small Language Models** *(ACL 2027)*
-- **ASIQ: Adaptive-Scale Integer Quantization with 1FeFET–1RRAM Cells for Efficient LLM Inference on Analog Compute-in-Memory Systems** *(arXiv)*
-- **HaLoRA: Hardware-Aware Low-Rank Adaptation for Large Language Models Based on Hybrid Compute-in-Memory Architecture** *(ACM TODAES)*
-
-### 3. Efficient Generation and Long-Context Inference
-
-- **Recall Before You Rank: Similarity-Guided Top-K Reuse for Efficient Long-Context Attention** *(arXiv)*
-- **Approximate Speculative Decoding** *(arXiv)*
-- **RECAP: Recent-Context-Aware KV-Cache Pruning for Efficient Long-Context Speculative Decoding** *(arXiv)*
-- **CoCommit: Coordinating Parallel Token Commitment in Few-Step Diffusion Large Language Models** *(arXiv)*
-
-### 4. Robust AI on Imperfect Hardware
-
-- **ABNAT: Attention-Based Noise-Aware Training for Robust Transformers on Analog Compute-in-Memory Systems** *(ASP-DAC 2027)*
-- **ASSERT: Adaptive Stochastic Sampling for Robust Diffusion Models on Analog Compute-in-Memory Hardware** *(ASP-DAC 2027)*
-- **Guard-of-Sink: Selective KV-Cache Protection for Noise-Resilient LLM Inference on Analog Compute-in-Memory Systems** *(arXiv)*
-- **ROMER: Expert Replacement and Router Calibration for Robust MoE LLMs on Analog Compute-in-Memory Systems** *(arXiv)*
-- **Beyond Autoregression: Diffusion Language Models for Robust Analog In-Memory Generation** *(arXiv)*
-- **When Guidance Goes Off-Scale: Recalibrating Diffusion Transformers under Analog Compute-in-Memory Nonidealities** *(arXiv)*
-- **Can We Trust LLMs on Memristors? Diving into Reasoning Ability under Non-Ideality** *(COLM 2027)*
-
-
 Recent News
 ======
 - 2026.09 - Seven papers were accepted by ASPDAC 2027.
