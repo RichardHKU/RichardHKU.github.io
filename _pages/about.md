@@ -13,7 +13,7 @@ My goal is to make increasingly capable AI efficient, reliable, and deployable i
 A central focus of my work is memory-centric and analog compute-in-memory hardware, which offers a promising path toward reducing data movement but also introduces constraints in precision, data conversion, noise, and device variability. I use these emerging platforms as both a key opportunity and a demanding testbed for developing general principles of hardware-aware, workload-aware, and reliability-aware AI system design.
 
 
-Research Interests
+## Research Interests
 
 My research develops efficient and reliable AI systems through cross-layer co-design across hardware, models, and runtime software. I am particularly interested in:
 
