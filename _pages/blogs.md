@@ -5,8 +5,6 @@ permalink: /blogs/
 author_profile: true
 ---
 
-# Research Reading Guide
-
 This page is a curated reading guide to efficient AI systems, large language
 model (LLM) inference, quantization, compute-in-memory, and hardware-aware
 machine learning.
