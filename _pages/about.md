@@ -36,7 +36,7 @@ Selected Publications
 - **NOVA-CIM: Noise- and Correlation-Tolerant Stochastic Interfaces for Analog Compute-in-Memory** *(ASP-DAC 2027)*
 - **Scale-CIM: A Stochastic-Computing Interface for Configurable Precision in Analog CIM Systems** *(arXiv)*
 - **TrainCIM: Design Space Exploration of Heterogeneous Multi-Core Compute-in-Memory Architectures for AI Training** *(arXiv)*
-- **TrainDSE: A Hierarchical Simulation and Design Space Exploration Framework for LLM Training Systems** *(arXiv)*
+- **PIMScope: Package-Aware Analytical Modeling and Design-Space Exploration of Heterogeneous In-Memory Computing Systems for LLM Training** *(arXiv)*
 
 ### 2. Fidelity-Aware Hardware–Model Co-Design
 
