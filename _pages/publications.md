@@ -3,39 +3,77 @@ permalink: /publications/
 title: "Publications"
 ---
 
-## Conference
+## 1. Memory-Centric Computing Substrates
 
-- Y. Feng*, **W. Zhou\***, Y. Lyu, H. Liu, Z. Liu, N. Wong and W. Kang. HPD: Hybrid Projection Decomposition for Robust State Space Models on Analog CIM Hardware, *2025 IEEE 16th International Conference on ASIC (ASICON), Kunming, China, 2025*..
+- **R2S-CIM: Random-Reference Stochastic Interface for ADC-Less Analog Compute-in-Memory** *(arXiv)*  
+  > **TL;DR.** A random-reference stochastic interface that enables ADC-less analog compute-in-memory with efficient and flexible data representation.
 
-- Y. Feng*, **W. Zhou\***, Y. Lyu, Y. Zhang, Z. Liu, N. Wong and W. Kang. Extending Straight-Through Estimation for Robust Neural Networks on Analog CIM Hardware, *2025 IEEE 15th International Conference on ASIC (ASICON), Kunming, China, 2025*.
-  
-- Y. Cheng, B. Huang, **W. Zhou**, T. Wu, Z. Liu, G. Chesi, and N. Wong. Re-Activating Frozen Primitives for 3D Gaussian Splatting, *2025 ACM Multimedia (MM), Dublin, Ireland, 2025*.
+- **NOVA-CIM: Noise- and Correlation-Tolerant Stochastic Interfaces for Analog Compute-in-Memory** *(ASP-DAC 2027)*  
+  > **TL;DR.** A stochastic CIM interface designed to mitigate analog noise and correlation, improving the reliability of in-memory computation.
 
-- Y. Cheng, B. Huang, T. Wu, **W. Zhou**, Z. Liu, G. Chesi, and N. Wong. Perspective-aware 3D Gaussian Inpainting with Multi-view Consistency, *2025 IEEE/CVF International Conference on Computer Vision (ICCV), Honolulu, Hawaii, 2025*.
+- **Scale-CIM: A Stochastic-Computing Interface for Configurable Precision in Analog CIM Systems** *(arXiv)*  
+  > **TL;DR.** A stochastic-computing interface that supports configurable precision, allowing analog CIM systems to balance accuracy and efficiency.
 
-- **W. Zhou\***, J. Ren\*, T. Wu, Y. Cheng, Z. Liu and N. Wong. Distribution-Aware Hadamard Quantization for Hardware-Efficient Implicit Neural Representations, *2025 IEEE International Conference on Multimedia and Expo (ICME), Nantes, France, 2025*.
+- **TrainCIM: Design Space Exploration of Heterogeneous Multi-Core Compute-in-Memory Architectures for AI Training** *(arXiv)*  
+  > **TL;DR.** A design-space exploration framework for heterogeneous multi-core CIM architectures tailored to the demands of AI training.
 
-- **W. Zhou**, T. Wu, C. Ding, Y. Ren, Z. Liu and N. Wong. Towards RRAM-based Transformer-based Vision Models with Noise-aware Knowledge Distillation, *2025 Design, Automation & Test in Europe Conference & Exhibition (DATE), Lyon, France, 2025*.
+- **PIMScope: Package-Aware Analytical Modeling and Design-Space Exploration of Heterogeneous In-Memory Computing Systems for LLM Training** *(arXiv)*  
+  > **TL;DR.** A package-aware analytical modeling framework for exploring heterogeneous in-memory computing systems for efficient LLM training.
 
-- **W. Zhou\***, T. Wu\*, Y. Cheng, C. Zhang, Z. Liu and N. Wong. MINR: Efficient Implicit Neural Representations for Multi-Image Encoding, *ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Hyderabad, India, 2025*.
 
-- **W. Zhou\***, Y. Cheng\*, T. Wu, C. Zhang, Z. Liu and N. Wong. Enhancing Robustness of Implicit Neural Representations Against Weight Perturbations, *ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Hyderabad, India, 2025*.
+## 2. Fidelity-Aware Hardware–Model Co-Design
 
-- **W. Zhou\***, Y. Ren\*, J. Zhou, C. Ding, Z. Liu, and N. Wong. RRAM-Based Isotropic CNNs with High Robustness and Resource Utilization Rate, *2025 9th IEEE Electron Devices Technology & Manufacturing Conference (EDTM), Hong Kong, China, 2025*.
+- **Binary Weight Multi-Bit Activation Quantization for Compute-in-Memory CNN Accelerators** *(IEEE TCAD)*  
+  > **TL;DR.** A quantization scheme using binary weights and multi-bit activations to improve the efficiency of CIM-based CNN acceleration.
 
-- T. Hou, Y. Ren, **W. Zhou**, C. Li, Z. Wang, H-B. Chen, and N. Wong. Physics-Informed Learning for Versatile RRAM Reset and Retention Simulation, *2024 29th Asia and South Pacific Design Automation Conference (ASP-DAC), Incheon, Korea, Republic of, 2024*.
+- **NANQ: Noise-Aware Mixed-Precision Non-Uniform Quantization for Neural Networks on Analog Compute-in-Memory** *(ASP-DAC 2027)*  
+  > **TL;DR.** A noise-aware mixed-precision quantization method that allocates non-uniform precision to improve accuracy and robustness on analog CIM.
 
-- W. Qi\*, **W. Zhou\***, N. Wong and S.C. Chan. Hybrid Module with Multiple Receptive Fields and Self-Attention Layers for Medical Image Segmentation, *ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Seoul, Korea, Republic of, 2024*.
+- **Exploring Layer-Wise Information Effectiveness for Post-Training Quantization in Small Language Models** *(ACL 2027)*  
+  > **TL;DR.** A layer-wise study of information effectiveness that guides post-training quantization for small language models.
 
-- **W. Zhou\***, Y. Ren\*, J. Zhou, T. Hou, and N. Wong. A Time- and Energy-Efficient CNN with Dense Connections on Memristor-Based Chips, *2023 IEEE 15th International Conference on ASIC (ASICON), Nanjing, China, 2023*.
+- **ASIQ: Adaptive-Scale Integer Quantization with 1FeFET–1RRAM Cells for Efficient LLM Inference on Analog Compute-in-Memory Systems** *(arXiv)*  
+  > **TL;DR.** An adaptive-scale integer quantization approach co-designed with hybrid 1FeFET–1RRAM CIM hardware for efficient LLM inference.
 
-- Z. Guan\*, **W. Zhou\***, Y. Ren, R. Xie, H. Yu and N. Wong. A Hardware-Aware Neural Architecture Search Pareto Front Exploration for In-Memory Computing, *2022 IEEE 16th International Conference on Solid-State & Integrated Circuit Technology (ICSICT), Nanjing, China, 2022*.
+- **HaLoRA: Hardware-Aware Low-Rank Adaptation for Large Language Models Based on Hybrid Compute-in-Memory Architecture** *(ACM TODAES)*  
+  > **TL;DR.** A hardware-aware LoRA framework that enables efficient low-rank adaptation of LLMs on hybrid compute-in-memory architectures.
 
----
 
-## Journal
-  
-- **W. Zhou**, Y. Ren, Z. Liu and N. Wong. Binary Weight Multi-Bit Activation Quantization for Compute-in-Memory CNN Accelerators, *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems*.
-  
-- **W. Zhou\***, B. Li\*, T. Wu, C. Ding, Z. Liu and N. Wong. QuadINR: Quadratic Implicit Neural Representations for Efficient Memristor-based CIM System, *IEEE Transactions on Circuits and Systems II: Express Briefs*.
+## 3. Efficient Generation and Long-Context Inference
+
+- **Recall Before You Rank: Similarity-Guided Top-K Reuse for Efficient Long-Context Attention** *(arXiv)*  
+  > **TL;DR.** A similarity-guided top-*k* reuse strategy that reduces the overhead of long-context attention while preserving retrieval quality.
+
+- **Approximate Speculative Decoding** *(arXiv)*  
+  > **TL;DR.** A speculative decoding method that strategically relaxes exact verification to accelerate autoregressive language-model generation.
+
+- **RECAP: Recent-Context-Aware KV-Cache Pruning for Efficient Long-Context Speculative Decoding** *(arXiv)*  
+  > **TL;DR.** A recent-context-aware KV-cache pruning method that lowers memory and computation costs in long-context speculative decoding.
+
+- **CoCommit: Coordinating Parallel Token Commitment in Few-Step Diffusion Large Language Models** *(arXiv)*  
+  > **TL;DR.** A coordinated token-commitment mechanism for improving parallel generation in few-step diffusion language models.
+
+
+## 4. Robust AI on Imperfect Hardware
+
+- **ABNAT: Attention-Based Noise-Aware Training for Robust Transformers on Analog Compute-in-Memory Systems** *(ASP-DAC 2027)*  
+  > **TL;DR.** An attention-based noise-aware training method that improves Transformer robustness to analog CIM nonidealities.
+
+- **ASSERT: Adaptive Stochastic Sampling for Robust Diffusion Models on Analog Compute-in-Memory Hardware** *(ASP-DAC 2027)*  
+  > **TL;DR.** An adaptive stochastic sampling strategy that improves diffusion-model generation robustness on noisy analog CIM hardware.
+
+- **Guard-of-Sink: Selective KV-Cache Protection for Noise-Resilient LLM Inference on Analog Compute-in-Memory Systems** *(arXiv)*  
+  > **TL;DR.** A selective protection mechanism for critical KV-cache states that improves LLM inference reliability under analog CIM noise.
+
+- **ROMER: Expert Replacement and Router Calibration for Robust MoE LLMs on Analog Compute-in-Memory Systems** *(arXiv)*  
+  > **TL;DR.** A robustness framework for mixture-of-experts LLMs that combines expert replacement and router calibration under CIM nonidealities.
+
+- **Beyond Autoregression: Diffusion Language Models for Robust Analog In-Memory Generation** *(arXiv)*  
+  > **TL;DR.** An exploration of diffusion language models as a more hardware-resilient alternative to autoregressive generation on analog CIM.
+
+- **When Guidance Goes Off-Scale: Recalibrating Diffusion Transformers under Analog Compute-in-Memory Nonidealities** *(arXiv)*  
+  > **TL;DR.** A recalibration approach that restores the effectiveness of guidance in diffusion Transformers affected by analog CIM errors.
+
+- **Can We Trust LLMs on Memristors? Diving into Reasoning Ability under Non-Ideality** *(COLM 2027)*  
+  > **TL;DR.** A study of how memristor nonidealities affect LLM reasoning behavior and the reliability of reasoning-intensive tasks.
 
