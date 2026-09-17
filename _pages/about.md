@@ -40,23 +40,23 @@ Education
 ======
 
 - **Ph.D.**, The University of Hong Kong (HKU)  
-  *2021 -- 2025*  
-  Supervised by Prof. Ngai Wong and Prof. Can Li in the Next Gen AI Lab.
+  Electrical and Computer Engineering · *2021 -- 2025*  
+  Advisors: Prof. Ngai Wong and Prof. Can Li
 
-- **M.S. in Electrical and Computer Engineering**, Northwestern University  
-  *2019 -- 2021*  
-  Mentored by Prof. Seda Ogrenci.
+- **M.S.**, Northwestern University (NU)  
+  Electrical and Computer Engineering · *2019 -- 2021*  
+  Advisor: Prof. Seda Ogrenci
 
-- **Bachelor's Degree in Microelectronics**, Tianjin University (TJU)  
-  *2015 -- 2019*  
-  Mentored by Prof. Yugong Wu.
+- **B.S.**, Tianjin University (TJU)  
+  Microelectronics · *2015 -- 2019*  
+  Advisor: Prof. Yugong Wu
 
 
 Industry Experience
 ======
 
-- **Zhicun (Witmem) Technology** — Internship
-- **JD.com** — Internship, 2023
+- **Zhicun (Witmem) Technology** — Internship, 2025
+- **JD.com** — Internship, 2024
 - **ByteDance** — Internship, 2021
 
 
@@ -73,6 +73,7 @@ Academic Service
 ======
 
 I serve as a Technical Program Committee (TPC) member for leading conferences in electronic design automation, including **DAC**, **DATE**, **ICCAD**, and **ASP-DAC**. I also serve as a reviewer for **IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems (IEEE TCAD)** and **IEEE Transactions on Computers (IEEE TC)**.
+
 (Last updated on Aug., 2026)
 
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=-nscv4pQeoMEESU7AgJ6vCgAGxzsHrMmnsZm4xJFXUs&cl=ffffff&w=a"></script>
