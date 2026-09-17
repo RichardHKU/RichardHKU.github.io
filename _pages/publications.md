@@ -5,6 +5,8 @@ title: "Publications"
 
 ## 1. Efficient AI Computing Platforms
 
+I develop memory-centric, heterogeneous, and system-aware computing platforms that reduce data movement, conversion overhead, and integration bottlenecks in AI workloads.
+
 - **R2S-CIM: Random-Reference Stochastic Interface for ADC-Less Analog Compute-in-Memory** *(arXiv)*  
   > **TL;DR.** A stochastic interface that removes high-cost ADCs from analog CIM while retaining flexible data representation, reducing conversion overhead for efficient AI execution.
 
@@ -22,6 +24,8 @@ title: "Publications"
 
 
 ## 2. Hardware-Aware Model Representation and Adaptation
+
+I redesign model precision, numerical representation, and adaptation mechanisms so that models can better exploit the capabilities of resource-constrained hardware.
 
 - **Binary Weight Multi-Bit Activation Quantization for Compute-in-Memory CNN Accelerators** *(IEEE TCAD)*  
   > **TL;DR.** A hardware-efficient quantization scheme that combines binary weights with multi-bit activations to reduce the cost of CIM-based CNN inference.
@@ -41,6 +45,8 @@ title: "Publications"
 
 ## 3. Efficient Foundation-Model Execution and Generation
 
+I reduce the computational, memory, and sequential bottlenecks of foundation-model inference by rethinking attention, caching, verification, and generation strategies.
+
 - **Recall Before You Rank: Similarity-Guided Top-K Reuse for Efficient Long-Context Attention** *(arXiv)*  
   > **TL;DR.** A similarity-guided top-*k* reuse strategy that avoids redundant work in long-context attention while preserving retrieval quality.
 
@@ -55,6 +61,8 @@ title: "Publications"
 
 
 ## 4. Reliable AI under Approximation and Hardware Imperfections
+
+I study how approximation and physical nonidealities propagate through AI workloads, and develop cross-layer methods that preserve robust model behavior.
 
 - **ABNAT: Attention-Based Noise-Aware Training for Robust Transformers on Analog Compute-in-Memory Systems** *(ASP-DAC 2027, accepted)*  
   > **TL;DR.** An attention-based noise-aware training method that improves Transformer robustness to analog CIM nonidealities.
