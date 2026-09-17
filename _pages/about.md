@@ -6,25 +6,28 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am **Wenyong Zhou**, and I earned my PhD from the University of Hong Kong (HKU) under the supervision of Prof. Ngai Wong and Prof. Can Li. My research lies at the intersection of AI systems, computer architecture, and emerging hardware. I am interested in rethinking how neural networks are computed—from the physical substrate and system architecture to the algorithms that govern model execution. My goal is to make increasingly capable AI more efficient, reliable, and deployable by bridging advances in foundation models with the practical constraints of real-world computing platforms.
+I am Wenyong Zhou, and I earned my PhD from the University of Hong Kong (HKU) under the supervision of Prof. Ngai Wong and Prof. Can Li. My research lies at the intersection of AI systems, computer architecture, and emerging hardware.
+
+My goal is to make increasingly capable AI efficient, reliable, and deployable in the real world. I pursue this goal through cross-layer co-design, jointly rethinking computing platforms, model representations, runtime mechanisms, and generation algorithms. Rather than treating hardware and AI models as independently optimized layers, I study how their interactions shape the end-to-end cost, performance, and reliability of modern AI systems.
+
+A central focus of my work is memory-centric and analog compute-in-memory hardware, which offers a promising path toward reducing data movement but also introduces constraints in precision, data conversion, noise, and device variability. I use these emerging platforms as both a key opportunity and a demanding testbed for developing general principles of hardware-aware, workload-aware, and reliability-aware AI system design.
 
 
 Research Interests
-======
 
-My research explores efficient and resilient computing for foundation models through cross-layer algorithm–hardware co-design. I am particularly interested in the following directions:
+My research develops efficient and reliable AI systems through cross-layer co-design across hardware, models, and runtime software. I am particularly interested in:
 
-- **Memory-Centric Computing Substrates**  
-  Computing architectures, interfaces, and system-design methodologies that harness emerging memory technologies—especially compute-in-memory—to reduce data movement and improve the efficiency of AI workloads.
+- **Efficient AI Computing Platforms**  
+  Memory-centric architectures, emerging hardware, heterogeneous systems, and design methodologies that reduce data movement and improve the end-to-end efficiency of AI workloads.
 
-- **Fidelity-Aware Hardware–Model Co-Design**  
-  Methods that treat numerical precision as a system resource, jointly considering model sensitivity, information importance, and hardware cost to enable efficient model representation, adaptation, and execution.
+- **Hardware-Aware Model Representation and Adaptation**  
+  Quantization, precision allocation, efficient fine-tuning, and model representations that adapt to the cost, fidelity, and resource constraints of target hardware.
 
-- **Efficient Generation and Long-Context Inference**  
-  Algorithms and systems for reducing the cost of foundation-model inference, with interests in attention efficiency, memory-state management, decoding acceleration, and scalable model serving.
+- **Foundation-Model Execution and Generation**  
+  Algorithms and runtime systems for efficient long-context processing, KV-cache management, decoding acceleration, and alternative generation paradigms.
 
-- **Robust AI on Imperfect Hardware**  
-  Cross-layer techniques that enable reliable model behavior under the nonidealities of emerging hardware, including limited precision, analog noise, device variation, and system-level dynamics.
+- **Reliable AI under Approximation and Hardware Imperfections**  
+  Cross-layer techniques that enable robust and trustworthy model behavior under low precision, approximate computation, analog noise, device variation, and dynamic system effects.
 
 Recent News
 ======
