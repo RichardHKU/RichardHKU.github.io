@@ -40,15 +40,15 @@ Education
 ======
 
 - **Ph.D.**, The University of Hong Kong (HKU)  
-  *Completed in 2025*  
+  *2021 -- 2025*  
   Supervised by Prof. Ngai Wong and Prof. Can Li in the Next Gen AI Lab.
 
 - **M.S. in Electrical and Computer Engineering**, Northwestern University  
-  *Completed in 2021*  
+  *2019 -- 2021*  
   Mentored by Prof. Seda Ogrenci.
 
 - **Bachelor's Degree in Microelectronics**, Tianjin University (TJU)  
-  *Completed in 2019*  
+  *2015 -- 2019*  
   Mentored by Prof. Yugong Wu.
 
 
