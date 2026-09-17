@@ -74,7 +74,39 @@ Recent News
 - 2025.07 - One paper was accepted by IEEE TCAD.
 - 2025.06 - One paper was accepted by IEEE TCAS-II.
 
+Education
+======
 
+- **Ph.D.**, The University of Hong Kong (HKU)  
+  *Completed in 2025*  
+  Supervised by Prof. Ngai Wong and Prof. Can Li in the Next Gen AI Lab.
+
+- **M.S. in Electrical and Computer Engineering**, Northwestern University  
+  *Completed in 2021*  
+  Mentored by Prof. Seda Ogrenci.
+
+- **Bachelor's Degree in Microelectronics**, Tianjin University (TJU)  
+  *Completed in 2019*  
+  Mentored by Prof. Yugong Wu.
+
+
+Industry Experience
+======
+
+- **Zhicun (Witmem) Technology** — Internship
+- **JD.com** — Internship, 2023
+- **ByteDance** — Internship, 2021
+
+
+Interests
+======
+
+Beyond research, I enjoy:
+
+- **Sports** — Staying active through basketball, table tennis, and badminton.
+- **Reading** — Exploring ideas across technology, history, society, and beyond.
+- **Learning across disciplines** — Following developments and perspectives outside my primary research areas.
+  
 Academic Service
 ======
 
