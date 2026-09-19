@@ -7,75 +7,75 @@ redirect_from:
   - /resume
 ---
 
-我的研究聚焦于**高效、可靠的人工智能系统**（Efficient and Reliable AI Systems）。随着基础模型的参数规模、上下文长度和部署范围持续扩展，AI 系统面临的核心挑战已不再只是算力不足，而是计算、存储、数据搬移、通信、数值精度与硬件可靠性之间日益突出的系统性失配。
+My research focuses on **Efficient and Reliable AI Systems**. As foundation models continue to grow in parameter count, context length, and deployment scale, the central challenge facing AI systems is no longer simply insufficient compute. Instead, it is the increasingly severe systemic mismatch among computation, memory, data movement, communication, numerical precision, and hardware reliability.
 
-我致力于回答一个贯穿算法、模型、体系结构与新型器件的问题：
+I seek to address a question that spans algorithms, models, architectures, and emerging devices:
 
-> **如何让先进的 AI 模型在真实、资源受限且不完美的硬件上，实现高效、稳定并可信的训练、推理与生成？**
+> **How can advanced AI models achieve efficient, stable, and trustworthy training, inference, and generation on real-world hardware that is resource-constrained and imperfect?**
 
-为此，我探索从模型算法到计算硬件的跨层协同设计。我的研究既关注存内计算（Compute-in-Memory, CIM）、异构内存和封装感知系统等新型计算平台，也关注基础模型本身的计算结构，包括长上下文 attention、KV cache、speculative decoding、diffusion language models，以及参数高效适配与低比特模型表示。除了追求更高的吞吐率、更低的能耗和更小的内存占用，我也关注近似计算、模拟噪声和器件非理想性对模型行为造成的深层影响，尤其是它们如何改变模型的生成轨迹、路由决策、内部状态与推理能力。
+To answer this question, I explore cross-layer co-design from machine-learning algorithms to computing hardware. My research investigates emerging computing platforms—including Compute-in-Memory (CIM), heterogeneous memory systems, and package-aware architectures—as well as the computational structure of foundation models themselves, including long-context attention, KV caches, speculative decoding, diffusion language models, parameter-efficient adaptation, and low-bit model representations. Beyond improving throughput, energy efficiency, and memory footprint, I also study the deeper effects of approximate computing, analog noise, and device nonidealities on model behavior—particularly how they alter generation trajectories, routing decisions, internal states, and reasoning capabilities.
 
-我的研究主要围绕以下四个相互关联的方向展开。
-
----
-
-### 1. 高效 AI 计算平台
-
-大规模 AI 的能耗和延迟往往并非主要来自算术运算本身，而是来自频繁的数据搬移、模数转换、存储访问、片间通信和封装互连。因此，我研究如何通过新型计算接口、异构架构和系统级建模，构建更加高效的 AI 计算平台。
-
-在存内计算场景中，我探索随机计算接口、可配置精度表示和免 ADC 的模拟计算机制，以降低数据转换和数值表示带来的开销，同时提升系统对不同模型与任务需求的适应能力。我也研究面向 AI 训练和 LLM 训练的异构多核存内计算系统，通过分析计算、内存容量、带宽、通信与封装之间的耦合关系，建立设计空间探索与性能建模框架。
-
-这一方向的核心目标是突破“仅优化单个计算单元”的局限，从系统层面理解并缓解 AI 工作负载中的数据移动与集成瓶颈。
+My research is organized around four closely connected directions.
 
 ---
 
-### 2. 硬件感知的模型表示与适配
+### 1. Efficient AI Computing Platforms
 
-模型并不是固定不变的工作负载。模型的数值表示、精度配置、参数结构和适配方式，都会显著影响其在目标硬件上的效率、准确率与可部署性。因此，我研究如何让模型本身主动适应硬件的资源约束与计算特性。
+For large-scale AI workloads, energy consumption and latency often arise not primarily from arithmetic operations, but from frequent data movement, analog-to-digital conversion, memory accesses, chip-to-chip communication, and package-level interconnects. I therefore study how new computing interfaces, heterogeneous architectures, and system-level modeling can enable more efficient AI computing platforms.
 
-具体而言，我关注量化、混合精度、非均匀精度分配和自适应整数表示等问题，探索如何根据不同层、不同通道或不同模型组件的信息重要性，分配合适的数值预算。在模拟存内计算场景中，我进一步将量化策略与噪声、器件特性及混合存储单元结构结合，使模型表示不仅更紧凑，而且对底层计算误差更具适应性。
+In the context of compute-in-memory, I explore stochastic computing interfaces, configurable-precision representations, and ADC-less analog computing mechanisms to reduce the overhead of data conversion and numerical representation while improving adaptability to diverse models and tasks. I also investigate heterogeneous multi-core CIM systems for AI training and LLM training. By analyzing the coupling among computation, memory capacity, bandwidth, communication, and packaging, I develop design-space exploration and performance-modeling frameworks for these systems.
 
-我也研究面向大语言模型的硬件感知参数高效微调方法，例如低秩适配（LoRA）与混合 CIM 架构的协同设计。其目标并非仅仅压缩模型，而是重新设计模型适配过程，使有限的计算、存储和通信资源被分配到最有价值的参数与计算路径上。
-
-这一方向体现了我的一个基本观点：**高效 AI 不应只依赖更快的硬件，也需要模型表示和学习机制与硬件能力共同演化。**
+The central goal of this research direction is to move beyond optimizing individual compute units and instead understand and alleviate data-movement and integration bottlenecks at the system level.
 
 ---
 
-### 3. 基础模型的高效执行与生成
+### 2. Hardware-Aware Model Representation and Adaptation
 
-对于长上下文 LLM 和生成式基础模型而言，推理成本通常由 attention、KV cache、逐 token 解码以及验证和同步过程主导。即使底层硬件拥有很高的计算吞吐，冗余的检索、存储、访存和串行依赖仍会显著限制端到端效率。
+Models are not fixed workloads. Their numerical representations, precision configurations, parameter structures, and adaptation mechanisms can substantially affect efficiency, accuracy, and deployability on a target hardware platform. I therefore investigate how models themselves can actively adapt to hardware resource constraints and computational characteristics.
 
-我从模型执行机制出发，研究如何减少这些不必要的开销。例如，在长上下文 attention 中，我探索利用历史相似性复用 top-*k* 检索结果，避免重复进行代价高昂的搜索与排序；在 KV-cache 管理中，我研究如何识别并保留真正影响当前生成的上下文状态，从而减少内存占用和访问开销；在 speculative decoding 中，我探索近似验证和上下文感知的缓存裁剪机制，以降低自回归生成中的串行瓶颈。
+Specifically, I study quantization, mixed precision, non-uniform precision allocation, and adaptive integer representations. My goal is to assign appropriate numerical budgets according to the information importance of different layers, channels, or model components. In analog CIM settings, I further co-design quantization strategies with hardware noise, device characteristics, and hybrid memory-cell structures, enabling model representations that are not only more compact but also more resilient to underlying computational errors.
 
-此外，我也关注 diffusion language models 等非自回归或弱自回归生成范式，并研究如何通过并行 token commitment 等机制提高少步生成的实际效率。这些工作共同尝试重新审视一个基本问题：
+I also study hardware-aware parameter-efficient fine-tuning methods for large language models, such as the co-design of low-rank adaptation (LoRA) and hybrid CIM architectures. The objective is not merely to compress models, but to redesign the adaptation process so that limited compute, memory, and communication resources are allocated to the parameters and computational paths that matter most.
 
-> **基础模型是否一定需要按照传统、逐 token、精确且高度串行的方式运行？**
-
-我希望通过算法与执行机制的共同重构，减少模型推理中不必要的计算、存储和同步，让基础模型能够以更高效、更可扩展的方式服务于真实应用。
+This direction reflects one of my core beliefs: **efficient AI should not rely solely on faster hardware; model representations and learning mechanisms must evolve together with hardware capabilities.**
 
 ---
 
-### 4. 近似计算与不完美硬件下的可靠 AI
+### 3. Efficient Execution and Generation of Foundation Models
 
-高效计算通常伴随着近似：低比特表示可能引入量化误差，模拟计算会受到噪声、漂移、非线性和器件间差异的影响，而激进的缓存裁剪、近似验证或并行生成也可能改变模型的原始行为。因此，效率与可靠性并不是彼此独立的目标，而是一组需要共同设计和评估的系统属性。
+For long-context LLMs and generative foundation models, inference cost is often dominated by attention, KV-cache management, token-by-token decoding, and verification and synchronization procedures. Even when the underlying hardware provides high computational throughput, redundant retrieval, storage, memory access, and serial dependencies can severely limit end-to-end efficiency.
 
-我研究模拟存内计算中的硬件非理想性如何传播到 Transformer、MoE、diffusion model 和 LLM 的内部计算过程中。例如，模拟噪声可能改变 attention 分布，KV-cache 中的误差可能在生成过程中逐步累积，MoE 的 router 偏差可能将 token 导向不合适的 expert，而扩散模型中的误差则可能破坏 guidance 和迭代去噪过程。
+Starting from the execution mechanisms of models, I investigate how to eliminate these unnecessary costs. For example, in long-context attention, I explore reusing historical top-*k* retrieval results based on similarity, thereby avoiding repeated expensive search and ranking operations. For KV-cache management, I study how to identify and retain the contextual states that truly affect current generation, reducing both memory footprint and access overhead. In speculative decoding, I investigate approximate verification and context-aware cache pruning to mitigate the serial bottleneck of autoregressive generation.
 
-针对这些问题，我开发跨层鲁棒性方法，包括噪声感知训练、随机采样策略、关键 KV-cache 状态保护、expert replacement、router calibration，以及面向 diffusion Transformer 的 guidance 重校准等机制。除传统的任务准确率或生成质量外，我也关注更高层次的可靠性问题：硬件非理想性是否会影响语言模型的推理行为、复杂任务中的决策稳定性，以及模型输出是否仍然值得信任。
+I also study non-autoregressive or weakly autoregressive generation paradigms, including diffusion language models, and explore mechanisms such as parallel token commitment to improve the practical efficiency of few-step generation. Together, these efforts revisit a fundamental question:
 
-这一方向的目标是推动 AI 系统从“在理想硬件上获得最佳性能”，走向“在真实硬件约束下维持稳定、可预测且可信的行为”。
+> **Must foundation models operate in the traditional token-by-token, exact, and highly serial manner?**
+
+By jointly rethinking algorithms and execution mechanisms, I aim to reduce unnecessary computation, storage, and synchronization during inference, enabling foundation models to serve real-world applications more efficiently and scalably.
 
 ---
 
-## 长期愿景
+### 4. Reliable AI under Approximate Computing and Imperfect Hardware
 
-我的长期目标是建立面向下一代 AI 的**跨层协同设计范式**。在这一范式中，算法、模型表示、执行机制、系统架构与器件特性不再被孤立优化，而是围绕端到端效率、可靠性与可扩展性共同设计。
+Efficient computing often entails approximation: low-bit representations introduce quantization errors; analog computing is affected by noise, drift, nonlinearity, and device-to-device variation; and aggressive cache pruning, approximate verification, or parallel generation may also alter a model’s original behavior. Efficiency and reliability are therefore not independent objectives, but system properties that must be designed and evaluated jointly.
 
-我希望推动 AI 系统实现以下转变：
+I study how hardware nonidealities in analog CIM propagate through the internal computation of Transformers, mixture-of-experts (MoE) models, diffusion models, and LLMs. For example, analog noise can alter attention distributions; errors in the KV cache can accumulate progressively during generation; router bias in MoE models can direct tokens to unsuitable experts; and errors in diffusion models can disrupt guidance and iterative denoising processes.
 
-- 从只关注峰值算力，转向优化端到端的数据移动、存储、通信与生成开销；
-- 从将模型视为固定工作负载，转向让模型表示、精度和适配机制主动匹配硬件；
-- 从仅追求理想条件下的准确率，转向理解并保障近似计算和硬件非理想性下的模型行为；
-- 从单点硬件加速，转向面向真实 AI 工作负载的算法—模型—系统—器件协同创新。
+To address these challenges, I develop cross-layer robustness techniques, including noise-aware training, stochastic sampling strategies, protection of critical KV-cache states, expert replacement, router calibration, and guidance recalibration for diffusion Transformers. Beyond conventional task accuracy and generation quality, I also focus on higher-level reliability questions: Can hardware nonidealities affect the reasoning behavior of language models, the stability of decision-making in complex tasks, or the trustworthiness of model outputs?
 
-最终，我希望构建能够在资源受限、近似计算和不完美硬件条件下，依然**高效、稳定、可信且可扩展**地运行的 AI 系统。
+The goal of this research direction is to move AI systems beyond “achieving the best performance on ideal hardware” toward “maintaining stable, predictable, and trustworthy behavior under real hardware constraints.”
+
+---
+
+## Long-Term Vision
+
+My long-term goal is to establish a **cross-layer co-design paradigm** for next-generation AI. In this paradigm, algorithms, model representations, execution mechanisms, system architectures, and device characteristics are no longer optimized in isolation. Instead, they are jointly designed around end-to-end efficiency, reliability, and scalability.
+
+I aim to help drive the following transitions in AI systems:
+
+- From focusing only on peak compute performance to optimizing end-to-end data movement, storage, communication, and generation overhead;
+- From treating models as fixed workloads to enabling model representations, precision configurations, and adaptation mechanisms to actively match hardware capabilities;
+- From pursuing accuracy only under ideal conditions to understanding and safeguarding model behavior under approximate computing and hardware nonidealities;
+- From point-wise hardware acceleration to algorithm–model–system–device co-innovation for real-world AI workloads.
+
+Ultimately, I aim to build AI systems that remain **efficient, stable, trustworthy, and scalable** under resource constraints, approximate computation, and imperfect hardware.
