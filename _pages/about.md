@@ -31,6 +31,7 @@ My research develops efficient and reliable AI systems through cross-layer co-de
 
 Recent News
 ======
+--2026.11 - Five papers were accepted by DATE 2027.
 - 2026.09 - Seven papers were accepted by ASPDAC 2027.
 - 2026.08 - Two papers were accepted by ICCD 2026.
 - 2026.04 - One paper was accepted by IEEE TC.
